@@ -74,6 +74,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="flapbyrcc.Designer.vb" />
     <Compile Include="flogin.Designer.vb">
       <DependentUpon>flogin.vb</DependentUpon>
     </Compile>
@@ -84,6 +85,246 @@
       <DependentUpon>fmenu.vb</DependentUpon>
     </Compile>
     <Compile Include="fmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gesek_tunai\bayar_gesek_tunai\fdaftarbyrgestun.Designer.vb">
+      <DependentUpon>fdaftarbyrgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gesek_tunai\bayar_gesek_tunai\fdaftarbyrgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gesek_tunai\bayar_gesek_tunai\feditbyrgestun.Designer.vb">
+      <DependentUpon>feditbyrgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gesek_tunai\bayar_gesek_tunai\feditbyrgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gesek_tunai\bayar_gesek_tunai\finputbyrgestun.Designer.vb">
+      <DependentUpon>finputbyrgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gesek_tunai\bayar_gesek_tunai\finputbyrgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\fdaftargestun.Designer.vb">
+      <DependentUpon>fdaftargestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\fdaftargestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\feditgestun.Designer.vb">
+      <DependentUpon>feditgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\feditgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\finputgestun.Designer.vb">
+      <DependentUpon>finputgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\finputgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\fstrukgestun.Designer.vb">
+      <DependentUpon>fstrukgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gesek_tunai\gesek_tunai\fstrukgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hutang\bayar_hutang\fbayarhutang.Designer.vb">
+      <DependentUpon>fbayarhutang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hutang\bayar_hutang\fbayarhutang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hutang\bayar_hutang\feditbyrhutang.Designer.vb">
+      <DependentUpon>feditbyrhutang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hutang\bayar_hutang\feditbyrhutang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hutang\bayar_hutang\finputbyrhutang.Designer.vb">
+      <DependentUpon>finputbyrhutang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hutang\bayar_hutang\finputbyrhutang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hutang\pinjam_uang\feditpinjamuang.Designer.vb">
+      <DependentUpon>feditpinjamuang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hutang\pinjam_uang\feditpinjamuang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hutang\pinjam_uang\finputpinjamuang.Designer.vb">
+      <DependentUpon>finputpinjamuang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hutang\pinjam_uang\finputpinjamuang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hutang\pinjam_uang\fpinjamuang.Designer.vb">
+      <DependentUpon>fpinjamuang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hutang\pinjam_uang\fpinjamuang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\fdaftarcccus.Designer.vb">
+      <DependentUpon>fdaftarcccus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\fdaftarcccus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\feditcccus.Designer.vb">
+      <DependentUpon>feditcccus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\feditcccus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\finputcccus.Designer.vb">
+      <DependentUpon>finputcccus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\finputcccus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\finputmnlcccus.Designer.vb">
+      <DependentUpon>finputmnlcccus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\dftr_cc_cus\finputmnlcccus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\serah_kartu\feditserahtt.Designer.vb">
+      <DependentUpon>feditserahtt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\serah_kartu\feditserahtt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\serah_kartu\finputserahkartu.Designer.vb">
+      <DependentUpon>finputserahkartu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\serah_kartu\finputserahkartu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\serah_kartu\fserahtt.Designer.vb">
+      <DependentUpon>fserahtt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\serah_kartu\fserahtt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\titip_kartu\fdaftartitip.Designer.vb">
+      <DependentUpon>fdaftartitip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\titip_kartu\fdaftartitip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\titip_kartu\fedittitip.Designer.vb">
+      <DependentUpon>fedittitip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\titip_kartu\fedittitip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kartu_kredit\titip_kartu\finputtitip.Designer.vb">
+      <DependentUpon>finputtitip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kartu_kredit\titip_kartu\finputtitip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyrcctitippel.Designer.vb">
+      <DependentUpon>flapbyrcctitippel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrcctitippel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyrgestun.Designer.vb">
+      <DependentUpon>flapbyrgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyrkrggespelunasan.Designer.vb">
+      <DependentUpon>flapbyrkrggespelunasan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrkrggespelunasan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyrtitipanpelcus.Designer.vb">
+      <DependentUpon>flapbyrtitipanpelcus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrtitipanpelcus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyrtitippelgesek.Designer.vb">
+      <DependentUpon>flapbyrtitippelgesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrtitippelgesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapccblmlunas.Designer.vb">
+      <DependentUpon>flapccblmlunas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapccblmlunas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapccygdigesek.Designer.vb">
+      <DependentUpon>flapccygdigesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapccygdigesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapcusbyrpinjam.Designer.vb">
+      <DependentUpon>flapcusbyrpinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapcusbyrpinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapcuspinjamuang.Designer.vb">
+      <DependentUpon>flapcuspinjamuang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapcuspinjamuang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapgesekpelunasan.Designer.vb">
+      <DependentUpon>flapgesekpelunasan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapgesekpelunasan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapgestun.Designer.vb">
+      <DependentUpon>flapgestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapgestunblm.Designer.vb">
+      <DependentUpon>flapgestunblm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapgestunblm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaphisttitippel.Designer.vb">
+      <DependentUpon>flaphisttitippel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaphisttitippel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flappiutangcus.Designer.vb">
+      <DependentUpon>flappiutangcus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flappiutangcus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapprospekpel.Designer.vb">
+      <DependentUpon>flapprospekpel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapprospekpel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptitippel.Designer.vb">
+      <DependentUpon>flaptitippel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptitippel.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="master\account_bank\faccountbank.Designer.vb">
@@ -155,6 +396,270 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="pelunasan\bayar_titipan_cash\fbyrtitipcash.Designer.vb">
+      <DependentUpon>fbyrtitipcash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_cash\fbyrtitipcash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_cash\feditbyrtitipcash.Designer.vb">
+      <DependentUpon>feditbyrtitipcash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_cash\feditbyrtitipcash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_cash\finputbyrtitipcash.Designer.vb">
+      <DependentUpon>finputbyrtitipcash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_cash\finputbyrtitipcash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_gesek\fbyrtitipgesek.Designer.vb">
+      <DependentUpon>fbyrtitipgesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_gesek\fbyrtitipgesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_gesek\feditbyrtitipgesek.Designer.vb">
+      <DependentUpon>feditbyrtitipgesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_gesek\feditbyrtitipgesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_gesek\finputbyrtitipgesek.Designer.vb">
+      <DependentUpon>finputbyrtitipgesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\bayar_titipan_gesek\finputbyrtitipgesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\byr_kurang_gesek\fbyrkrggesek.Designer.vb">
+      <DependentUpon>fbyrkrggesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\byr_kurang_gesek\fbyrkrggesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\byr_kurang_gesek\feditbyrkrggesek.Designer.vb">
+      <DependentUpon>feditbyrkrggesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\byr_kurang_gesek\feditbyrkrggesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\byr_kurang_gesek\finputbyrkrggesek.Designer.vb">
+      <DependentUpon>finputbyrkrggesek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\byr_kurang_gesek\finputbyrkrggesek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\byr_titip_pelunasan\fbyrtitippelcash.Designer.vb">
+      <DependentUpon>fbyrtitippelcash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\byr_titip_pelunasan\fbyrtitippelcash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\byr_titip_pelunasan\fedittitippelcash.Designer.vb">
+      <DependentUpon>fedittitippelcash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\byr_titip_pelunasan\fedittitippelcash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\byr_titip_pelunasan\finputtitipelcash.Designer.vb">
+      <DependentUpon>finputtitipelcash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\byr_titip_pelunasan\finputtitipelcash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\gesek_pelunasan\feditgesekpel.Designer.vb">
+      <DependentUpon>feditgesekpel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\gesek_pelunasan\feditgesekpel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\gesek_pelunasan\fgesekpel.Designer.vb">
+      <DependentUpon>fgesekpel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\gesek_pelunasan\fgesekpel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\gesek_pelunasan\finputgesekpelvb.Designer.vb">
+      <DependentUpon>finputgesekpelvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\gesek_pelunasan\finputgesekpelvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\fedittitippelunasan.Designer.vb">
+      <DependentUpon>fedittitippelunasan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\fedittitippelunasan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\finputtitippelunasan.Designer.vb">
+      <DependentUpon>finputtitippelunasan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\finputtitippelunasan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\fstrukpelunasan.Designer.vb">
+      <DependentUpon>fstrukpelunasan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\fstrukpelunasan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\ftitippelunasan.Designer.vb">
+      <DependentUpon>ftitippelunasan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pelunasan\titip_pelunasan\ftitippelunasan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_cash\fcusbyrpincash.Designer.vb">
+      <DependentUpon>fcusbyrpincash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_cash\fcusbyrpincash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_cash\FEDITCUSBYRPINCASH.Designer.vb">
+      <DependentUpon>FEDITCUSBYRPINCASH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_cash\FEDITCUSBYRPINCASH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_cash\finputcusbyrpincash.Designer.vb">
+      <DependentUpon>finputcusbyrpincash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_cash\finputcusbyrpincash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_gesek\fbyrcuspinges.Designer.vb">
+      <DependentUpon>fbyrcuspinges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_gesek\fbyrcuspinges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_gesek\feditbyrcuspinges.Designer.vb">
+      <DependentUpon>feditbyrcuspinges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_gesek\feditbyrcuspinges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_gesek\finputbyrcuspinges.Designer.vb">
+      <DependentUpon>finputbyrcuspinges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_bayar_gesek\finputbyrcuspinges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_pinjam\fcuspinjam.Designer.vb">
+      <DependentUpon>fcuspinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_pinjam\fcuspinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_pinjam\feditcuspin.Designer.vb">
+      <DependentUpon>feditcuspin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_pinjam\feditcuspin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pinjaman\customer_pinjam\finputcuspin.Designer.vb">
+      <DependentUpon>finputcuspin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pinjaman\customer_pinjam\finputcuspin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rangkuman\fprospek.Designer.vb">
+      <DependentUpon>fprospek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rangkuman\fprospek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rangkuman\fsaldohariini.Designer.vb">
+      <DependentUpon>fsaldohariini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rangkuman\fsaldohariini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rangkuman\ftrxhariini.Designer.vb">
+      <DependentUpon>ftrxhariini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rangkuman\ftrxhariini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\debit_penjualanhp\fdbjualhp.Designer.vb">
+      <DependentUpon>fdbjualhp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\debit_penjualanhp\fdbjualhp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\debit_penjualanhp\feditdbjualhp.Designer.vb">
+      <DependentUpon>feditdbjualhp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\debit_penjualanhp\feditdbjualhp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\debit_penjualanhp\finputdbjualhp.Designer.vb">
+      <DependentUpon>finputdbjualhp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\debit_penjualanhp\finputdbjualhp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_debit\fbyrdebit.Designer.vb">
+      <DependentUpon>fbyrdebit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_debit\fbyrdebit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_debit\finputbyrdebit.Designer.vb">
+      <DependentUpon>finputbyrdebit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_debit\finputbyrdebit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_edc\fbyredc.Designer.vb">
+      <DependentUpon>fbyredc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_edc\fbyredc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_edc\finputbyredc.Designer.vb">
+      <DependentUpon>finputbyredc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\pembayaran_edc\finputbyredc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\pemindahan_dana\feditpindahdana.Designer.vb">
+      <DependentUpon>feditpindahdana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\pemindahan_dana\feditpindahdana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\pemindahan_dana\finputpindahdana.Designer.vb">
+      <DependentUpon>finputpindahdana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\pemindahan_dana\finputpindahdana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\pemindahan_dana\fpindahdana.Designer.vb">
+      <DependentUpon>fpindahdana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\pemindahan_dana\fpindahdana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\trx_kas_lain\fedittrxlain.Designer.vb">
+      <DependentUpon>fedittrxlain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\trx_kas_lain\fedittrxlain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\trx_kas_lain\finputtrxlain.Designer.vb">
+      <DependentUpon>finputtrxlain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\trx_kas_lain\finputtrxlain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trx_lain\trx_kas_lain\ftrxlain.Designer.vb">
+      <DependentUpon>ftrxlain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="trx_lain\trx_kas_lain\ftrxlain.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="flogin.resx">
@@ -162,6 +667,126 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fmenu.resx">
       <DependentUpon>fmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gesek_tunai\bayar_gesek_tunai\fdaftarbyrgestun.resx">
+      <DependentUpon>fdaftarbyrgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gesek_tunai\bayar_gesek_tunai\feditbyrgestun.resx">
+      <DependentUpon>feditbyrgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gesek_tunai\bayar_gesek_tunai\finputbyrgestun.resx">
+      <DependentUpon>finputbyrgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gesek_tunai\gesek_tunai\fdaftargestun.resx">
+      <DependentUpon>fdaftargestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gesek_tunai\gesek_tunai\feditgestun.resx">
+      <DependentUpon>feditgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gesek_tunai\gesek_tunai\finputgestun.resx">
+      <DependentUpon>finputgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gesek_tunai\gesek_tunai\fstrukgestun.resx">
+      <DependentUpon>fstrukgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hutang\bayar_hutang\fbayarhutang.resx">
+      <DependentUpon>fbayarhutang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hutang\bayar_hutang\feditbyrhutang.resx">
+      <DependentUpon>feditbyrhutang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hutang\bayar_hutang\finputbyrhutang.resx">
+      <DependentUpon>finputbyrhutang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hutang\pinjam_uang\feditpinjamuang.resx">
+      <DependentUpon>feditpinjamuang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hutang\pinjam_uang\finputpinjamuang.resx">
+      <DependentUpon>finputpinjamuang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hutang\pinjam_uang\fpinjamuang.resx">
+      <DependentUpon>fpinjamuang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\dftr_cc_cus\fdaftarcccus.resx">
+      <DependentUpon>fdaftarcccus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\dftr_cc_cus\feditcccus.resx">
+      <DependentUpon>feditcccus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\dftr_cc_cus\finputcccus.resx">
+      <DependentUpon>finputcccus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\dftr_cc_cus\finputmnlcccus.resx">
+      <DependentUpon>finputmnlcccus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\serah_kartu\feditserahtt.resx">
+      <DependentUpon>feditserahtt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\serah_kartu\finputserahkartu.resx">
+      <DependentUpon>finputserahkartu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\serah_kartu\fserahtt.resx">
+      <DependentUpon>fserahtt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\titip_kartu\fdaftartitip.resx">
+      <DependentUpon>fdaftartitip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\titip_kartu\fedittitip.resx">
+      <DependentUpon>fedittitip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartu_kredit\titip_kartu\finputtitip.resx">
+      <DependentUpon>finputtitip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrcctitippel.resx">
+      <DependentUpon>flapbyrcctitippel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrgestun.resx">
+      <DependentUpon>flapbyrgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrkrggespelunasan.resx">
+      <DependentUpon>flapbyrkrggespelunasan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrtitipanpelcus.resx">
+      <DependentUpon>flapbyrtitipanpelcus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrtitippelgesek.resx">
+      <DependentUpon>flapbyrtitippelgesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapccblmlunas.resx">
+      <DependentUpon>flapccblmlunas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapccygdigesek.resx">
+      <DependentUpon>flapccygdigesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapcusbyrpinjam.resx">
+      <DependentUpon>flapcusbyrpinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapcuspinjamuang.resx">
+      <DependentUpon>flapcuspinjamuang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapgesekpelunasan.resx">
+      <DependentUpon>flapgesekpelunasan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapgestun.resx">
+      <DependentUpon>flapgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapgestunblm.resx">
+      <DependentUpon>flapgestunblm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaphisttitippel.resx">
+      <DependentUpon>flaphisttitippel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flappiutangcus.resx">
+      <DependentUpon>flappiutangcus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapprospekpel.resx">
+      <DependentUpon>flapprospekpel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptitippel.resx">
+      <DependentUpon>flaptitippel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="master\account_bank\faccountbank.resx">
       <DependentUpon>faccountbank.vb</DependentUpon>
@@ -196,8 +821,141 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\bayar_titipan_cash\fbyrtitipcash.resx">
+      <DependentUpon>fbyrtitipcash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\bayar_titipan_cash\feditbyrtitipcash.resx">
+      <DependentUpon>feditbyrtitipcash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\bayar_titipan_cash\finputbyrtitipcash.resx">
+      <DependentUpon>finputbyrtitipcash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\bayar_titipan_gesek\fbyrtitipgesek.resx">
+      <DependentUpon>fbyrtitipgesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\bayar_titipan_gesek\feditbyrtitipgesek.resx">
+      <DependentUpon>feditbyrtitipgesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\bayar_titipan_gesek\finputbyrtitipgesek.resx">
+      <DependentUpon>finputbyrtitipgesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\byr_kurang_gesek\fbyrkrggesek.resx">
+      <DependentUpon>fbyrkrggesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\byr_kurang_gesek\feditbyrkrggesek.resx">
+      <DependentUpon>feditbyrkrggesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\byr_kurang_gesek\finputbyrkrggesek.resx">
+      <DependentUpon>finputbyrkrggesek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\byr_titip_pelunasan\fbyrtitippelcash.resx">
+      <DependentUpon>fbyrtitippelcash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\byr_titip_pelunasan\fedittitippelcash.resx">
+      <DependentUpon>fedittitippelcash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\byr_titip_pelunasan\finputtitipelcash.resx">
+      <DependentUpon>finputtitipelcash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\gesek_pelunasan\feditgesekpel.resx">
+      <DependentUpon>feditgesekpel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\gesek_pelunasan\fgesekpel.resx">
+      <DependentUpon>fgesekpel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\gesek_pelunasan\finputgesekpelvb.resx">
+      <DependentUpon>finputgesekpelvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\titip_pelunasan\fedittitippelunasan.resx">
+      <DependentUpon>fedittitippelunasan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\titip_pelunasan\finputtitippelunasan.resx">
+      <DependentUpon>finputtitippelunasan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\titip_pelunasan\fstrukpelunasan.resx">
+      <DependentUpon>fstrukpelunasan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pelunasan\titip_pelunasan\ftitippelunasan.resx">
+      <DependentUpon>ftitippelunasan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_bayar_cash\fcusbyrpincash.resx">
+      <DependentUpon>fcusbyrpincash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_bayar_cash\FEDITCUSBYRPINCASH.resx">
+      <DependentUpon>FEDITCUSBYRPINCASH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_bayar_cash\finputcusbyrpincash.resx">
+      <DependentUpon>finputcusbyrpincash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_bayar_gesek\fbyrcuspinges.resx">
+      <DependentUpon>fbyrcuspinges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_bayar_gesek\feditbyrcuspinges.resx">
+      <DependentUpon>feditbyrcuspinges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_bayar_gesek\finputbyrcuspinges.resx">
+      <DependentUpon>finputbyrcuspinges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_pinjam\fcuspinjam.resx">
+      <DependentUpon>fcuspinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_pinjam\feditcuspin.resx">
+      <DependentUpon>feditcuspin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pinjaman\customer_pinjam\finputcuspin.resx">
+      <DependentUpon>finputcuspin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rangkuman\fprospek.resx">
+      <DependentUpon>fprospek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rangkuman\fsaldohariini.resx">
+      <DependentUpon>fsaldohariini.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rangkuman\ftrxhariini.resx">
+      <DependentUpon>ftrxhariini.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\debit_penjualanhp\fdbjualhp.resx">
+      <DependentUpon>fdbjualhp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\debit_penjualanhp\feditdbjualhp.resx">
+      <DependentUpon>feditdbjualhp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\debit_penjualanhp\finputdbjualhp.resx">
+      <DependentUpon>finputdbjualhp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\pembayaran_debit\fbyrdebit.resx">
+      <DependentUpon>fbyrdebit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\pembayaran_debit\finputbyrdebit.resx">
+      <DependentUpon>finputbyrdebit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\pembayaran_edc\fbyredc.resx">
+      <DependentUpon>fbyredc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\pembayaran_edc\finputbyredc.resx">
+      <DependentUpon>finputbyredc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\pemindahan_dana\feditpindahdana.resx">
+      <DependentUpon>feditpindahdana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\pemindahan_dana\finputpindahdana.resx">
+      <DependentUpon>finputpindahdana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\pemindahan_dana\fpindahdana.resx">
+      <DependentUpon>fpindahdana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\trx_kas_lain\fedittrxlain.resx">
+      <DependentUpon>fedittrxlain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\trx_kas_lain\finputtrxlain.resx">
+      <DependentUpon>finputtrxlain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trx_lain\trx_kas_lain\ftrxlain.resx">
+      <DependentUpon>ftrxlain.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\finance.exe.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -208,6 +966,14 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\finance.exe" />
+    <Content Include="bin\Debug\finance.pdb" />
+    <Content Include="bin\Debug\finance.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
