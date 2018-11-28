@@ -14,4 +14,8 @@
     Private Sub GesekPelunasanToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles GesekPelunasanToolStripMenuItem1.Click
 
     End Sub
+
+    Private Sub DaftarBankToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles DaftarBankToolStripMenuItem1.Click
+        fbank.Show()
+    End Sub
 End Class

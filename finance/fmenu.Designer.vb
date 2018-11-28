@@ -24,9 +24,26 @@ Partial Class fmenu
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DaftarBankToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DaftarAccountBankToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DaftarBINToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem16 = New System.Windows.Forms.ToolStripSeparator()
+        Me.DaftarCustomerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DaftarMesinEDCToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DaftarMesinDebitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KartuKreditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DaftarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem17 = New System.Windows.Forms.ToolStripSeparator()
+        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem18 = New System.Windows.Forms.ToolStripSeparator()
         Me.GesekTunaiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GesekTunaiToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PembayaranGesekTunaiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PelunasanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TitipPelunasanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GesekPelunasanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GesekPelunasanToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PinjamanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HutangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransaksiLainnnyaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -114,6 +131,8 @@ Partial Class fmenu
         Me.LaporanLabaRugiHarianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanKeuanganToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UtilityToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LockTransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UserManagementToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GantiPasswordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ManageUserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -124,23 +143,6 @@ Partial Class fmenu
         Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel4 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.DaftarBankToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DaftarAccountBankToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DaftarBINToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem16 = New System.Windows.Forms.ToolStripSeparator()
-        Me.DaftarCustomerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DaftarMesinEDCToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DaftarMesinDebitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DaftarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem17 = New System.Windows.Forms.ToolStripSeparator()
-        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem18 = New System.Windows.Forms.ToolStripSeparator()
-        Me.GesekTunaiToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PembayaranGesekTunaiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TitipPelunasanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GesekPelunasanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GesekPelunasanToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -161,12 +163,81 @@ Partial Class fmenu
         Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.MasterToolStripMenuItem.Text = "Master"
         '
+        'DaftarBankToolStripMenuItem1
+        '
+        Me.DaftarBankToolStripMenuItem1.Name = "DaftarBankToolStripMenuItem1"
+        Me.DaftarBankToolStripMenuItem1.Size = New System.Drawing.Size(183, 22)
+        Me.DaftarBankToolStripMenuItem1.Text = "Daftar Bank"
+        '
+        'DaftarAccountBankToolStripMenuItem
+        '
+        Me.DaftarAccountBankToolStripMenuItem.Name = "DaftarAccountBankToolStripMenuItem"
+        Me.DaftarAccountBankToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
+        Me.DaftarAccountBankToolStripMenuItem.Text = "Daftar Account Bank"
+        '
+        'DaftarBINToolStripMenuItem1
+        '
+        Me.DaftarBINToolStripMenuItem1.Name = "DaftarBINToolStripMenuItem1"
+        Me.DaftarBINToolStripMenuItem1.Size = New System.Drawing.Size(183, 22)
+        Me.DaftarBINToolStripMenuItem1.Text = "Daftar BIN"
+        '
+        'ToolStripMenuItem16
+        '
+        Me.ToolStripMenuItem16.Name = "ToolStripMenuItem16"
+        Me.ToolStripMenuItem16.Size = New System.Drawing.Size(180, 6)
+        '
+        'DaftarCustomerToolStripMenuItem1
+        '
+        Me.DaftarCustomerToolStripMenuItem1.Name = "DaftarCustomerToolStripMenuItem1"
+        Me.DaftarCustomerToolStripMenuItem1.Size = New System.Drawing.Size(183, 22)
+        Me.DaftarCustomerToolStripMenuItem1.Text = "Daftar Customer"
+        '
+        'DaftarMesinEDCToolStripMenuItem
+        '
+        Me.DaftarMesinEDCToolStripMenuItem.Name = "DaftarMesinEDCToolStripMenuItem"
+        Me.DaftarMesinEDCToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
+        Me.DaftarMesinEDCToolStripMenuItem.Text = "Daftar Mesin EDC"
+        '
+        'DaftarMesinDebitToolStripMenuItem
+        '
+        Me.DaftarMesinDebitToolStripMenuItem.Name = "DaftarMesinDebitToolStripMenuItem"
+        Me.DaftarMesinDebitToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
+        Me.DaftarMesinDebitToolStripMenuItem.Text = "Daftar Mesin Debit"
+        '
         'KartuKreditToolStripMenuItem
         '
         Me.KartuKreditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DaftarToolStripMenuItem, Me.ToolStripMenuItem17, Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1, Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem, Me.ToolStripMenuItem18})
         Me.KartuKreditToolStripMenuItem.Name = "KartuKreditToolStripMenuItem"
         Me.KartuKreditToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
         Me.KartuKreditToolStripMenuItem.Text = "Kartu Kredit"
+        '
+        'DaftarToolStripMenuItem
+        '
+        Me.DaftarToolStripMenuItem.Name = "DaftarToolStripMenuItem"
+        Me.DaftarToolStripMenuItem.Size = New System.Drawing.Size(262, 22)
+        Me.DaftarToolStripMenuItem.Text = "Kartu Kredit Customer"
+        '
+        'ToolStripMenuItem17
+        '
+        Me.ToolStripMenuItem17.Name = "ToolStripMenuItem17"
+        Me.ToolStripMenuItem17.Size = New System.Drawing.Size(259, 6)
+        '
+        'TitipKartuKreditTanpaTransaksiToolStripMenuItem1
+        '
+        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1.Name = "TitipKartuKreditTanpaTransaksiToolStripMenuItem1"
+        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1.Size = New System.Drawing.Size(262, 22)
+        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1.Text = "Titip Kartu Kredit (Tanpa Transaksi)"
+        '
+        'SerahKartuKreditTanpaTransaksiToolStripMenuItem
+        '
+        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem.Name = "SerahKartuKreditTanpaTransaksiToolStripMenuItem"
+        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem.Size = New System.Drawing.Size(262, 22)
+        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem.Text = "Serah Kartu Kredit (Tanpa Transaksi)"
+        '
+        'ToolStripMenuItem18
+        '
+        Me.ToolStripMenuItem18.Name = "ToolStripMenuItem18"
+        Me.ToolStripMenuItem18.Size = New System.Drawing.Size(259, 6)
         '
         'GesekTunaiToolStripMenuItem
         '
@@ -175,12 +246,42 @@ Partial Class fmenu
         Me.GesekTunaiToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
         Me.GesekTunaiToolStripMenuItem.Text = "Gesek Tunai"
         '
+        'GesekTunaiToolStripMenuItem3
+        '
+        Me.GesekTunaiToolStripMenuItem3.Name = "GesekTunaiToolStripMenuItem3"
+        Me.GesekTunaiToolStripMenuItem3.Size = New System.Drawing.Size(207, 22)
+        Me.GesekTunaiToolStripMenuItem3.Text = "Transaksi Gesek Tunai"
+        '
+        'PembayaranGesekTunaiToolStripMenuItem1
+        '
+        Me.PembayaranGesekTunaiToolStripMenuItem1.Name = "PembayaranGesekTunaiToolStripMenuItem1"
+        Me.PembayaranGesekTunaiToolStripMenuItem1.Size = New System.Drawing.Size(207, 22)
+        Me.PembayaranGesekTunaiToolStripMenuItem1.Text = "Pembayaran Gesek Tunai"
+        '
         'PelunasanToolStripMenuItem
         '
         Me.PelunasanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TitipPelunasanToolStripMenuItem1, Me.GesekPelunasanToolStripMenuItem1, Me.GesekPelunasanToolStripMenuItem2})
         Me.PelunasanToolStripMenuItem.Name = "PelunasanToolStripMenuItem"
         Me.PelunasanToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
         Me.PelunasanToolStripMenuItem.Text = "Pelunasan"
+        '
+        'TitipPelunasanToolStripMenuItem1
+        '
+        Me.TitipPelunasanToolStripMenuItem1.Name = "TitipPelunasanToolStripMenuItem1"
+        Me.TitipPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(229, 22)
+        Me.TitipPelunasanToolStripMenuItem1.Text = "Titip Pelunasan"
+        '
+        'GesekPelunasanToolStripMenuItem1
+        '
+        Me.GesekPelunasanToolStripMenuItem1.Name = "GesekPelunasanToolStripMenuItem1"
+        Me.GesekPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(229, 22)
+        Me.GesekPelunasanToolStripMenuItem1.Text = "Bayar Titip Pelunasan - Cash"
+        '
+        'GesekPelunasanToolStripMenuItem2
+        '
+        Me.GesekPelunasanToolStripMenuItem2.Name = "GesekPelunasanToolStripMenuItem2"
+        Me.GesekPelunasanToolStripMenuItem2.Size = New System.Drawing.Size(229, 22)
+        Me.GesekPelunasanToolStripMenuItem2.Text = "Bayar Titip Pelunasan - Gesek"
         '
         'PinjamanToolStripMenuItem
         '
@@ -697,9 +798,22 @@ Partial Class fmenu
         '
         'UtilityToolStripMenuItem
         '
+        Me.UtilityToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BackupDatabaseToolStripMenuItem, Me.LockTransaksiToolStripMenuItem})
         Me.UtilityToolStripMenuItem.Name = "UtilityToolStripMenuItem"
         Me.UtilityToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.UtilityToolStripMenuItem.Text = "Utility"
+        '
+        'BackupDatabaseToolStripMenuItem
+        '
+        Me.BackupDatabaseToolStripMenuItem.Name = "BackupDatabaseToolStripMenuItem"
+        Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
+        Me.BackupDatabaseToolStripMenuItem.Text = "Backup Database"
+        '
+        'LockTransaksiToolStripMenuItem
+        '
+        Me.LockTransaksiToolStripMenuItem.Name = "LockTransaksiToolStripMenuItem"
+        Me.LockTransaksiToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
+        Me.LockTransaksiToolStripMenuItem.Text = "Lock Transaksi"
         '
         'UserManagementToolStripMenuItem
         '
@@ -764,105 +878,6 @@ Partial Class fmenu
         Me.ToolStripStatusLabel4.Name = "ToolStripStatusLabel4"
         Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(120, 17)
         Me.ToolStripStatusLabel4.Text = "ToolStripStatusLabel4"
-        '
-        'DaftarBankToolStripMenuItem1
-        '
-        Me.DaftarBankToolStripMenuItem1.Name = "DaftarBankToolStripMenuItem1"
-        Me.DaftarBankToolStripMenuItem1.Size = New System.Drawing.Size(183, 22)
-        Me.DaftarBankToolStripMenuItem1.Text = "Daftar Bank"
-        '
-        'DaftarAccountBankToolStripMenuItem
-        '
-        Me.DaftarAccountBankToolStripMenuItem.Name = "DaftarAccountBankToolStripMenuItem"
-        Me.DaftarAccountBankToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
-        Me.DaftarAccountBankToolStripMenuItem.Text = "Daftar Account Bank"
-        '
-        'DaftarBINToolStripMenuItem1
-        '
-        Me.DaftarBINToolStripMenuItem1.Name = "DaftarBINToolStripMenuItem1"
-        Me.DaftarBINToolStripMenuItem1.Size = New System.Drawing.Size(183, 22)
-        Me.DaftarBINToolStripMenuItem1.Text = "Daftar BIN"
-        '
-        'ToolStripMenuItem16
-        '
-        Me.ToolStripMenuItem16.Name = "ToolStripMenuItem16"
-        Me.ToolStripMenuItem16.Size = New System.Drawing.Size(180, 6)
-        '
-        'DaftarCustomerToolStripMenuItem1
-        '
-        Me.DaftarCustomerToolStripMenuItem1.Name = "DaftarCustomerToolStripMenuItem1"
-        Me.DaftarCustomerToolStripMenuItem1.Size = New System.Drawing.Size(183, 22)
-        Me.DaftarCustomerToolStripMenuItem1.Text = "Daftar Customer"
-        '
-        'DaftarMesinEDCToolStripMenuItem
-        '
-        Me.DaftarMesinEDCToolStripMenuItem.Name = "DaftarMesinEDCToolStripMenuItem"
-        Me.DaftarMesinEDCToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
-        Me.DaftarMesinEDCToolStripMenuItem.Text = "Daftar Mesin EDC"
-        '
-        'DaftarMesinDebitToolStripMenuItem
-        '
-        Me.DaftarMesinDebitToolStripMenuItem.Name = "DaftarMesinDebitToolStripMenuItem"
-        Me.DaftarMesinDebitToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
-        Me.DaftarMesinDebitToolStripMenuItem.Text = "Daftar Mesin Debit"
-        '
-        'DaftarToolStripMenuItem
-        '
-        Me.DaftarToolStripMenuItem.Name = "DaftarToolStripMenuItem"
-        Me.DaftarToolStripMenuItem.Size = New System.Drawing.Size(262, 22)
-        Me.DaftarToolStripMenuItem.Text = "Kartu Kredit Customer"
-        '
-        'ToolStripMenuItem17
-        '
-        Me.ToolStripMenuItem17.Name = "ToolStripMenuItem17"
-        Me.ToolStripMenuItem17.Size = New System.Drawing.Size(259, 6)
-        '
-        'TitipKartuKreditTanpaTransaksiToolStripMenuItem1
-        '
-        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1.Name = "TitipKartuKreditTanpaTransaksiToolStripMenuItem1"
-        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1.Size = New System.Drawing.Size(262, 22)
-        Me.TitipKartuKreditTanpaTransaksiToolStripMenuItem1.Text = "Titip Kartu Kredit (Tanpa Transaksi)"
-        '
-        'SerahKartuKreditTanpaTransaksiToolStripMenuItem
-        '
-        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem.Name = "SerahKartuKreditTanpaTransaksiToolStripMenuItem"
-        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem.Size = New System.Drawing.Size(262, 22)
-        Me.SerahKartuKreditTanpaTransaksiToolStripMenuItem.Text = "Serah Kartu Kredit (Tanpa Transaksi)"
-        '
-        'ToolStripMenuItem18
-        '
-        Me.ToolStripMenuItem18.Name = "ToolStripMenuItem18"
-        Me.ToolStripMenuItem18.Size = New System.Drawing.Size(259, 6)
-        '
-        'GesekTunaiToolStripMenuItem3
-        '
-        Me.GesekTunaiToolStripMenuItem3.Name = "GesekTunaiToolStripMenuItem3"
-        Me.GesekTunaiToolStripMenuItem3.Size = New System.Drawing.Size(207, 22)
-        Me.GesekTunaiToolStripMenuItem3.Text = "Transaksi Gesek Tunai"
-        '
-        'PembayaranGesekTunaiToolStripMenuItem1
-        '
-        Me.PembayaranGesekTunaiToolStripMenuItem1.Name = "PembayaranGesekTunaiToolStripMenuItem1"
-        Me.PembayaranGesekTunaiToolStripMenuItem1.Size = New System.Drawing.Size(207, 22)
-        Me.PembayaranGesekTunaiToolStripMenuItem1.Text = "Pembayaran Gesek Tunai"
-        '
-        'TitipPelunasanToolStripMenuItem1
-        '
-        Me.TitipPelunasanToolStripMenuItem1.Name = "TitipPelunasanToolStripMenuItem1"
-        Me.TitipPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(187, 22)
-        Me.TitipPelunasanToolStripMenuItem1.Text = "Titip Pelunasan"
-        '
-        'GesekPelunasanToolStripMenuItem1
-        '
-        Me.GesekPelunasanToolStripMenuItem1.Name = "GesekPelunasanToolStripMenuItem1"
-        Me.GesekPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(229, 22)
-        Me.GesekPelunasanToolStripMenuItem1.Text = "Bayar Titip Pelunasan - Cash"
-        '
-        'GesekPelunasanToolStripMenuItem2
-        '
-        Me.GesekPelunasanToolStripMenuItem2.Name = "GesekPelunasanToolStripMenuItem2"
-        Me.GesekPelunasanToolStripMenuItem2.Size = New System.Drawing.Size(229, 22)
-        Me.GesekPelunasanToolStripMenuItem2.Text = "Bayar Titip Pelunasan - Gesek"
         '
         'fmenu
         '
@@ -1005,4 +1020,6 @@ Partial Class fmenu
     Friend WithEvents TitipPelunasanToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents GesekPelunasanToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents GesekPelunasanToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LockTransaksiToolStripMenuItem As ToolStripMenuItem
 End Class

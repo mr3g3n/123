@@ -32,9 +32,9 @@ Partial Class flapcusbyrpinjam
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -101,9 +101,9 @@ Partial Class flapcusbyrpinjam
         Me.CheckBox3.AutoSize = True
         Me.CheckBox3.Location = New System.Drawing.Point(27, 136)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(87, 17)
+        Me.CheckBox3.Size = New System.Drawing.Size(82, 17)
         Me.CheckBox3.TabIndex = 193
-        Me.CheckBox3.Text = "KAS / BANK"
+        Me.CheckBox3.Text = "Mesin Debit"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -136,6 +136,15 @@ Partial Class flapcusbyrpinjam
         Me.Panel1.Size = New System.Drawing.Size(501, 257)
         Me.Panel1.TabIndex = 203
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(15, 89)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(473, 24)
+        Me.ComboBox1.TabIndex = 207
+        '
         'ComboBox2
         '
         Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -150,19 +159,10 @@ Partial Class flapcusbyrpinjam
         Me.CheckBox2.AutoSize = True
         Me.CheckBox2.Location = New System.Drawing.Point(15, 66)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(82, 17)
+        Me.CheckBox2.Size = New System.Drawing.Size(80, 17)
         Me.CheckBox2.TabIndex = 193
-        Me.CheckBox2.Text = "Mesin Debit"
+        Me.CheckBox2.Text = "Kas / Bank"
         Me.CheckBox2.UseVisualStyleBackColor = True
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(15, 89)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(473, 24)
-        Me.ComboBox1.TabIndex = 207
         '
         'flapcusbyrpinjam
         '

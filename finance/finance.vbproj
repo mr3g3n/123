@@ -74,7 +74,37 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fbackup.Designer.vb">
+      <DependentUpon>fbackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fbackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fdaftaruser.Designer.vb">
+      <DependentUpon>fdaftaruser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fdaftaruser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fedituser.Designer.vb">
+      <DependentUpon>fedituser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fedituser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fganpas.Designer.vb">
+      <DependentUpon>fganpas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fganpas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="flapbyrcc.Designer.vb" />
+    <Compile Include="flocktrx.Designer.vb">
+      <DependentUpon>flocktrx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="flocktrx.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="flogin.Designer.vb">
       <DependentUpon>flogin.vb</DependentUpon>
     </Compile>
@@ -91,6 +121,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ftambahuser.Designer.vb">
+      <DependentUpon>ftambahuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ftambahuser.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="gesek_tunai\bayar_gesek_tunai\fdaftarbyrgestun.Designer.vb">
@@ -231,16 +267,46 @@
     <Compile Include="kartu_kredit\titip_kartu\finputtitip.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="laporan\flapactivitasuser.Designer.vb">
+      <DependentUpon>flapactivitasuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapactivitasuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="laporan\flapbyrcctitippel.Designer.vb">
       <DependentUpon>flapbyrcctitippel.vb</DependentUpon>
     </Compile>
     <Compile Include="laporan\flapbyrcctitippel.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="laporan\flapbyrdbitdet.Designer.vb">
+      <DependentUpon>flapbyrdbitdet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrdbitdet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyredcdet.Designer.vb">
+      <DependentUpon>flapbyredcdet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyredcdet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyredcsum.Designer.vb">
+      <DependentUpon>flapbyredcsum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyredcsum.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="laporan\flapbyrgestun.Designer.vb">
       <DependentUpon>flapbyrgestun.vb</DependentUpon>
     </Compile>
     <Compile Include="laporan\flapbyrgestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyrhutang.Designer.vb">
+      <DependentUpon>flapbyrhutang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrhutang.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="laporan\flapbyrkrggespelunasan.Designer.vb">
@@ -279,10 +345,28 @@
     <Compile Include="laporan\flapcusbyrpinjam.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="laporan\flapcusbyrpinjamges.Designer.vb">
+      <DependentUpon>flapcusbyrpinjamges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapcusbyrpinjamges.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="laporan\flapcuspinjamuang.Designer.vb">
       <DependentUpon>flapcuspinjamuang.vb</DependentUpon>
     </Compile>
     <Compile Include="laporan\flapcuspinjamuang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapbyrdbitsum.Designer.vb">
+      <DependentUpon>flapbyrdbitsum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapbyrdbitsum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapdbjualhp.Designer.vb">
+      <DependentUpon>flapdbjualhp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapdbjualhp.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="laporan\flapgesekpelunasan.Designer.vb">
@@ -309,10 +393,76 @@
     <Compile Include="laporan\flaphisttitippel.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="laporan\flaphutang.Designer.vb">
+      <DependentUpon>flaphutang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaphutang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaphutangblmlunas.Designer.vb">
+      <DependentUpon>flaphutangblmlunas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaphutangblmlunas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaphutangpiutangcus.Designer.vb">
+      <DependentUpon>flaphutangpiutangcus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaphutangpiutangcus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flapkeu.Designer.vb">
+      <DependentUpon>flapkeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flapkeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaplababyrtitipges.Designer.vb">
+      <DependentUpon>flaplababyrtitipges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaplababyrtitipges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaplabacusbyrpinjamanges.Designer.vb">
+      <DependentUpon>flaplabacusbyrpinjamanges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaplabacusbyrpinjamanges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaplabagestun.Designer.vb">
+      <DependentUpon>flaplabagestun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaplabagestun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaplabapinjaman.Designer.vb">
+      <DependentUpon>flaplabapinjaman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaplabapinjaman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaplabatitippel.Designer.vb">
+      <DependentUpon>flaplabatitippel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaplabatitippel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flappindahdana.Designer.vb">
+      <DependentUpon>flappindahdana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flappindahdana.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="laporan\flappiutangcus.Designer.vb">
       <DependentUpon>flappiutangcus.vb</DependentUpon>
     </Compile>
     <Compile Include="laporan\flappiutangcus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flappiutangcuspinjam.Designer.vb">
+      <DependentUpon>flappiutangcuspinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flappiutangcuspinjam.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="laporan\flapprospekpel.Designer.vb">
@@ -321,10 +471,64 @@
     <Compile Include="laporan\flapprospekpel.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="laporan\flaprugilaba.Designer.vb">
+      <DependentUpon>flaprugilaba.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaprugilaba.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaprugilabahari.Designer.vb">
+      <DependentUpon>flaprugilabahari.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaprugilabahari.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="laporan\flaptitippel.Designer.vb">
       <DependentUpon>flaptitippel.vb</DependentUpon>
     </Compile>
     <Compile Include="laporan\flaptitippel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptrxcus.Designer.vb">
+      <DependentUpon>flaptrxcus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptrxcus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptrxdbitblmbyr.Designer.vb">
+      <DependentUpon>flaptrxdbitblmbyr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptrxdbitblmbyr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptrxedcblmbyr.Designer.vb">
+      <DependentUpon>flaptrxedcblmbyr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptrxedcblmbyr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptrxkasbank.Designer.vb">
+      <DependentUpon>flaptrxkasbank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptrxkasbank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptrxkaslain.Designer.vb">
+      <DependentUpon>flaptrxkaslain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptrxkaslain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptrxmesindbit.Designer.vb">
+      <DependentUpon>flaptrxmesindbit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptrxmesindbit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan\flaptrxmesinedc.Designer.vb">
+      <DependentUpon>flaptrxmesinedc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan\flaptrxmesinedc.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="master\account_bank\faccountbank.Designer.vb">
@@ -662,6 +866,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="fbackup.resx">
+      <DependentUpon>fbackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fdaftaruser.resx">
+      <DependentUpon>fdaftaruser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fedituser.resx">
+      <DependentUpon>fedituser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fganpas.resx">
+      <DependentUpon>fganpas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flocktrx.resx">
+      <DependentUpon>flocktrx.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="flogin.resx">
       <DependentUpon>flogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -670,6 +889,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ftambahuser.resx">
+      <DependentUpon>ftambahuser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gesek_tunai\bayar_gesek_tunai\fdaftarbyrgestun.resx">
       <DependentUpon>fdaftarbyrgestun.vb</DependentUpon>
@@ -740,11 +962,29 @@
     <EmbeddedResource Include="kartu_kredit\titip_kartu\finputtitip.resx">
       <DependentUpon>finputtitip.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapactivitasuser.resx">
+      <DependentUpon>flapactivitasuser.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="laporan\flapbyrcctitippel.resx">
       <DependentUpon>flapbyrcctitippel.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrdbitdet.resx">
+      <DependentUpon>flapbyrdbitdet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrdbitsum.resx">
+      <DependentUpon>flapbyrdbitsum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyredcdet.resx">
+      <DependentUpon>flapbyredcdet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyredcsum.resx">
+      <DependentUpon>flapbyredcsum.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="laporan\flapbyrgestun.resx">
       <DependentUpon>flapbyrgestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapbyrhutang.resx">
+      <DependentUpon>flapbyrhutang.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="laporan\flapbyrkrggespelunasan.resx">
       <DependentUpon>flapbyrkrggespelunasan.vb</DependentUpon>
@@ -764,8 +1004,14 @@
     <EmbeddedResource Include="laporan\flapcusbyrpinjam.resx">
       <DependentUpon>flapcusbyrpinjam.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapcusbyrpinjamges.resx">
+      <DependentUpon>flapcusbyrpinjamges.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="laporan\flapcuspinjamuang.resx">
       <DependentUpon>flapcuspinjamuang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapdbjualhp.resx">
+      <DependentUpon>flapdbjualhp.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="laporan\flapgesekpelunasan.resx">
       <DependentUpon>flapgesekpelunasan.vb</DependentUpon>
@@ -779,14 +1025,74 @@
     <EmbeddedResource Include="laporan\flaphisttitippel.resx">
       <DependentUpon>flaphisttitippel.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaphutang.resx">
+      <DependentUpon>flaphutang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaphutangblmlunas.resx">
+      <DependentUpon>flaphutangblmlunas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaphutangpiutangcus.resx">
+      <DependentUpon>flaphutangpiutangcus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flapkeu.resx">
+      <DependentUpon>flapkeu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaplababyrtitipges.resx">
+      <DependentUpon>flaplababyrtitipges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaplabacusbyrpinjamanges.resx">
+      <DependentUpon>flaplabacusbyrpinjamanges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaplabagestun.resx">
+      <DependentUpon>flaplabagestun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaplabapinjaman.resx">
+      <DependentUpon>flaplabapinjaman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaplabatitippel.resx">
+      <DependentUpon>flaplabatitippel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flappindahdana.resx">
+      <DependentUpon>flappindahdana.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="laporan\flappiutangcus.resx">
       <DependentUpon>flappiutangcus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flappiutangcuspinjam.resx">
+      <DependentUpon>flappiutangcuspinjam.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="laporan\flapprospekpel.resx">
       <DependentUpon>flapprospekpel.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaprugilaba.resx">
+      <DependentUpon>flaprugilaba.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaprugilabahari.resx">
+      <DependentUpon>flaprugilabahari.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="laporan\flaptitippel.resx">
       <DependentUpon>flaptitippel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptrxcus.resx">
+      <DependentUpon>flaptrxcus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptrxdbitblmbyr.resx">
+      <DependentUpon>flaptrxdbitblmbyr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptrxedcblmbyr.resx">
+      <DependentUpon>flaptrxedcblmbyr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptrxkasbank.resx">
+      <DependentUpon>flaptrxkasbank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptrxkaslain.resx">
+      <DependentUpon>flaptrxkaslain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptrxmesindbit.resx">
+      <DependentUpon>flaptrxmesindbit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan\flaptrxmesinedc.resx">
+      <DependentUpon>flaptrxmesinedc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="master\account_bank\faccountbank.resx">
       <DependentUpon>faccountbank.vb</DependentUpon>

@@ -27,15 +27,15 @@ Partial Class flapbyrgestun
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -87,15 +87,6 @@ Partial Class flapbyrgestun
         Me.Button2.Text = "..."
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(311, 46)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(35, 26)
-        Me.Button1.TabIndex = 173
-        Me.Button1.Text = "..."
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
@@ -134,14 +125,6 @@ Partial Class flapbyrgestun
         Me.CheckBox2.Text = "Nama Customer"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(27, 46)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(278, 26)
-        Me.TextBox1.TabIndex = 170
-        '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -170,6 +153,23 @@ Partial Class flapbyrgestun
         Me.ComboBox2.Size = New System.Drawing.Size(473, 24)
         Me.ComboBox2.TabIndex = 207
         '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(27, 46)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(278, 26)
+        Me.TextBox1.TabIndex = 170
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(311, 46)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(35, 26)
+        Me.Button1.TabIndex = 173
+        Me.Button1.Text = "..."
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'flapbyrgestun
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -188,6 +188,8 @@ Partial Class flapbyrgestun
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Panel1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "flapbyrgestun"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -203,13 +205,13 @@ Partial Class flapbyrgestun
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
     Friend WithEvents CheckBox4 As CheckBox
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
 End Class
