@@ -43,10 +43,22 @@ Partial Class fmenu
         Me.PembayaranGesekTunaiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PelunasanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TitipPelunasanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem21 = New System.Windows.Forms.ToolStripSeparator()
         Me.GesekPelunasanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem20 = New System.Windows.Forms.ToolStripSeparator()
         Me.GesekPelunasanToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BBayarKurangGesekToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem19 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ABayarTitipanCashToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BBayarTitipanGesekToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PinjamanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CustomerPinjamToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem22 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ACustomerBayarCashToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BCustomerBayarGesekToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HutangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PinjamUangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BayarHutangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransaksiLainnnyaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DebitPenjualanHPToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransaksiKasBankLainnyaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -145,20 +157,20 @@ Partial Class fmenu
         Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel4 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
@@ -284,7 +296,7 @@ Partial Class fmenu
         '
         'PelunasanToolStripMenuItem
         '
-        Me.PelunasanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TitipPelunasanToolStripMenuItem1, Me.GesekPelunasanToolStripMenuItem1, Me.GesekPelunasanToolStripMenuItem2})
+        Me.PelunasanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TitipPelunasanToolStripMenuItem1, Me.ToolStripMenuItem21, Me.GesekPelunasanToolStripMenuItem1, Me.ToolStripMenuItem20, Me.GesekPelunasanToolStripMenuItem2, Me.BBayarKurangGesekToolStripMenuItem, Me.ToolStripMenuItem19, Me.ABayarTitipanCashToolStripMenuItem, Me.BBayarTitipanGesekToolStripMenuItem})
         Me.PelunasanToolStripMenuItem.Name = "PelunasanToolStripMenuItem"
         Me.PelunasanToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
         Me.PelunasanToolStripMenuItem.Text = "Pelunasan"
@@ -292,32 +304,102 @@ Partial Class fmenu
         'TitipPelunasanToolStripMenuItem1
         '
         Me.TitipPelunasanToolStripMenuItem1.Name = "TitipPelunasanToolStripMenuItem1"
-        Me.TitipPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(229, 22)
-        Me.TitipPelunasanToolStripMenuItem1.Text = "Titip Pelunasan"
+        Me.TitipPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(204, 22)
+        Me.TitipPelunasanToolStripMenuItem1.Text = "1. Titip Pelunasan"
+        '
+        'ToolStripMenuItem21
+        '
+        Me.ToolStripMenuItem21.Name = "ToolStripMenuItem21"
+        Me.ToolStripMenuItem21.Size = New System.Drawing.Size(201, 6)
         '
         'GesekPelunasanToolStripMenuItem1
         '
         Me.GesekPelunasanToolStripMenuItem1.Name = "GesekPelunasanToolStripMenuItem1"
-        Me.GesekPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(229, 22)
-        Me.GesekPelunasanToolStripMenuItem1.Text = "Bayar Titip Pelunasan - Cash"
+        Me.GesekPelunasanToolStripMenuItem1.Size = New System.Drawing.Size(204, 22)
+        Me.GesekPelunasanToolStripMenuItem1.Text = "2. Bayar Kartu Kredit"
+        '
+        'ToolStripMenuItem20
+        '
+        Me.ToolStripMenuItem20.Name = "ToolStripMenuItem20"
+        Me.ToolStripMenuItem20.Size = New System.Drawing.Size(201, 6)
         '
         'GesekPelunasanToolStripMenuItem2
         '
         Me.GesekPelunasanToolStripMenuItem2.Name = "GesekPelunasanToolStripMenuItem2"
-        Me.GesekPelunasanToolStripMenuItem2.Size = New System.Drawing.Size(229, 22)
-        Me.GesekPelunasanToolStripMenuItem2.Text = "Bayar Titip Pelunasan - Gesek"
+        Me.GesekPelunasanToolStripMenuItem2.Size = New System.Drawing.Size(204, 22)
+        Me.GesekPelunasanToolStripMenuItem2.Text = "3A. Gesek Pelunasan"
+        '
+        'BBayarKurangGesekToolStripMenuItem
+        '
+        Me.BBayarKurangGesekToolStripMenuItem.Name = "BBayarKurangGesekToolStripMenuItem"
+        Me.BBayarKurangGesekToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.BBayarKurangGesekToolStripMenuItem.Text = "3B. Bayar Kurang Gesek"
+        '
+        'ToolStripMenuItem19
+        '
+        Me.ToolStripMenuItem19.Name = "ToolStripMenuItem19"
+        Me.ToolStripMenuItem19.Size = New System.Drawing.Size(201, 6)
+        '
+        'ABayarTitipanCashToolStripMenuItem
+        '
+        Me.ABayarTitipanCashToolStripMenuItem.Name = "ABayarTitipanCashToolStripMenuItem"
+        Me.ABayarTitipanCashToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.ABayarTitipanCashToolStripMenuItem.Text = "4A. Bayar Titipan - Cash"
+        '
+        'BBayarTitipanGesekToolStripMenuItem
+        '
+        Me.BBayarTitipanGesekToolStripMenuItem.Name = "BBayarTitipanGesekToolStripMenuItem"
+        Me.BBayarTitipanGesekToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
+        Me.BBayarTitipanGesekToolStripMenuItem.Text = "4B. Bayar Titipan - Gesek"
         '
         'PinjamanToolStripMenuItem
         '
+        Me.PinjamanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CustomerPinjamToolStripMenuItem, Me.ToolStripMenuItem22, Me.ACustomerBayarCashToolStripMenuItem, Me.BCustomerBayarGesekToolStripMenuItem})
         Me.PinjamanToolStripMenuItem.Name = "PinjamanToolStripMenuItem"
         Me.PinjamanToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
         Me.PinjamanToolStripMenuItem.Text = "Pinjaman"
         '
+        'CustomerPinjamToolStripMenuItem
+        '
+        Me.CustomerPinjamToolStripMenuItem.Name = "CustomerPinjamToolStripMenuItem"
+        Me.CustomerPinjamToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.CustomerPinjamToolStripMenuItem.Text = "1. Customer Pinjam"
+        '
+        'ToolStripMenuItem22
+        '
+        Me.ToolStripMenuItem22.Name = "ToolStripMenuItem22"
+        Me.ToolStripMenuItem22.Size = New System.Drawing.Size(216, 6)
+        '
+        'ACustomerBayarCashToolStripMenuItem
+        '
+        Me.ACustomerBayarCashToolStripMenuItem.Name = "ACustomerBayarCashToolStripMenuItem"
+        Me.ACustomerBayarCashToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.ACustomerBayarCashToolStripMenuItem.Text = "2A. Customer Bayar - Cash"
+        '
+        'BCustomerBayarGesekToolStripMenuItem
+        '
+        Me.BCustomerBayarGesekToolStripMenuItem.Name = "BCustomerBayarGesekToolStripMenuItem"
+        Me.BCustomerBayarGesekToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.BCustomerBayarGesekToolStripMenuItem.Text = "2B. Customer Bayar - Gesek"
+        '
         'HutangToolStripMenuItem
         '
+        Me.HutangToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PinjamUangToolStripMenuItem, Me.BayarHutangToolStripMenuItem})
         Me.HutangToolStripMenuItem.Name = "HutangToolStripMenuItem"
         Me.HutangToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
         Me.HutangToolStripMenuItem.Text = "Hutang"
+        '
+        'PinjamUangToolStripMenuItem
+        '
+        Me.PinjamUangToolStripMenuItem.Name = "PinjamUangToolStripMenuItem"
+        Me.PinjamUangToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.PinjamUangToolStripMenuItem.Text = "1. Pinjam Uang"
+        '
+        'BayarHutangToolStripMenuItem
+        '
+        Me.BayarHutangToolStripMenuItem.Name = "BayarHutangToolStripMenuItem"
+        Me.BayarHutangToolStripMenuItem.Size = New System.Drawing.Size(158, 22)
+        Me.BayarHutangToolStripMenuItem.Text = "2. Bayar Hutang"
         '
         'TransaksiLainnnyaToolStripMenuItem
         '
@@ -936,148 +1018,30 @@ Partial Class fmenu
         Me.Panel1.Size = New System.Drawing.Size(1517, 92)
         Me.Panel1.TabIndex = 2
         '
-        'Button1
+        'Button14
         '
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button1.Location = New System.Drawing.Point(3, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(105, 86)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "&Gestun"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button14.Image = CType(resources.GetObject("Button14.Image"), System.Drawing.Image)
+        Me.Button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button14.Location = New System.Drawing.Point(1407, 3)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(105, 86)
+        Me.Button14.TabIndex = 0
+        Me.Button14.Text = "&Bayar EDC"
+        Me.Button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button14.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Button13
         '
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button2.Location = New System.Drawing.Point(111, 3)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(105, 86)
-        Me.Button2.TabIndex = 0
-        Me.Button2.Text = "&Bayar Gesek"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.Location = New System.Drawing.Point(219, 3)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(105, 86)
-        Me.Button3.TabIndex = 0
-        Me.Button3.Text = "&Titip Pelunasan"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
-        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button4.Location = New System.Drawing.Point(327, 3)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(105, 86)
-        Me.Button4.TabIndex = 0
-        Me.Button4.Text = "&Approve TP"
-        Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button5.Location = New System.Drawing.Point(435, 3)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(105, 86)
-        Me.Button5.TabIndex = 0
-        Me.Button5.Text = "&Bayar Kartu"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
-        Me.Button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button6.Location = New System.Drawing.Point(543, 3)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(105, 86)
-        Me.Button6.TabIndex = 0
-        Me.Button6.Text = "&Gesek Pelunasan"
-        Me.Button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
-        Me.Button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button7.Location = New System.Drawing.Point(651, 3)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(105, 86)
-        Me.Button7.TabIndex = 0
-        Me.Button7.Text = "&Byr Krg Gsk"
-        Me.Button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
-        Me.Button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button8.Location = New System.Drawing.Point(758, 3)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(105, 86)
-        Me.Button8.TabIndex = 0
-        Me.Button8.Text = "&Byr Titip Cash"
-        Me.Button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'Button9
-        '
-        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
-        Me.Button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button9.Location = New System.Drawing.Point(866, 3)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(105, 86)
-        Me.Button9.TabIndex = 0
-        Me.Button9.Text = "&Byr Titip Gesek"
-        Me.Button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
-        Me.Button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button10.Location = New System.Drawing.Point(974, 3)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(105, 86)
-        Me.Button10.TabIndex = 0
-        Me.Button10.Text = "&Kas / Bank Lain"
-        Me.Button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
-        Me.Button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button11.Location = New System.Drawing.Point(1082, 3)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(105, 86)
-        Me.Button11.TabIndex = 0
-        Me.Button11.Text = "&Pindah Dana"
-        Me.Button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
+        Me.Button13.Location = New System.Drawing.Point(1298, 3)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(105, 86)
+        Me.Button13.TabIndex = 0
+        Me.Button13.Text = "&Cust Byar Cash"
+        Me.Button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button13.UseVisualStyleBackColor = True
         '
         'Button12
         '
@@ -1092,30 +1056,148 @@ Partial Class fmenu
         Me.Button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button12.UseVisualStyleBackColor = True
         '
-        'Button13
+        'Button11
         '
-        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
-        Me.Button13.Location = New System.Drawing.Point(1298, 3)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(105, 86)
-        Me.Button13.TabIndex = 0
-        Me.Button13.Text = "&Cust Byar Cash"
-        Me.Button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
+        Me.Button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button11.Location = New System.Drawing.Point(1082, 3)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(105, 86)
+        Me.Button11.TabIndex = 0
+        Me.Button11.Text = "&Pindah Dana"
+        Me.Button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button11.UseVisualStyleBackColor = True
         '
-        'Button14
+        'Button10
         '
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button14.Image = CType(resources.GetObject("Button14.Image"), System.Drawing.Image)
-        Me.Button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button14.Location = New System.Drawing.Point(1407, 3)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(105, 86)
-        Me.Button14.TabIndex = 0
-        Me.Button14.Text = "&Bayar EDC"
-        Me.Button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
+        Me.Button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button10.Location = New System.Drawing.Point(974, 3)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(105, 86)
+        Me.Button10.TabIndex = 0
+        Me.Button10.Text = "&Kas / Bank Lain"
+        Me.Button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
+        Me.Button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button9.Location = New System.Drawing.Point(866, 3)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(105, 86)
+        Me.Button9.TabIndex = 0
+        Me.Button9.Text = "&Byr Titip Gesek"
+        Me.Button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
+        Me.Button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button8.Location = New System.Drawing.Point(758, 3)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(105, 86)
+        Me.Button8.TabIndex = 0
+        Me.Button8.Text = "&Byr Titip Cash"
+        Me.Button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
+        Me.Button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button7.Location = New System.Drawing.Point(651, 3)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(105, 86)
+        Me.Button7.TabIndex = 0
+        Me.Button7.Text = "&Byr Krg Gsk"
+        Me.Button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
+        Me.Button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button6.Location = New System.Drawing.Point(543, 3)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(105, 86)
+        Me.Button6.TabIndex = 0
+        Me.Button6.Text = "&Gesek Pelunasan"
+        Me.Button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
+        Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button5.Location = New System.Drawing.Point(435, 3)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(105, 86)
+        Me.Button5.TabIndex = 0
+        Me.Button5.Text = "&Bayar Kartu"
+        Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
+        Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button4.Location = New System.Drawing.Point(327, 3)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(105, 86)
+        Me.Button4.TabIndex = 0
+        Me.Button4.Text = "&Approve TP"
+        Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
+        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button3.Location = New System.Drawing.Point(219, 3)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(105, 86)
+        Me.Button3.TabIndex = 0
+        Me.Button3.Text = "&Titip Pelunasan"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
+        Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button2.Location = New System.Drawing.Point(111, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(105, 86)
+        Me.Button2.TabIndex = 0
+        Me.Button2.Text = "&Bayar Gesek"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button1.Location = New System.Drawing.Point(3, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(105, 86)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "&Gestun"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -1365,4 +1447,16 @@ Partial Class fmenu
     Friend WithEvents Button17 As Button
     Friend WithEvents Button18 As Button
     Friend WithEvents Button19 As Button
+    Friend WithEvents ToolStripMenuItem21 As ToolStripSeparator
+    Friend WithEvents ToolStripMenuItem20 As ToolStripSeparator
+    Friend WithEvents BBayarKurangGesekToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem19 As ToolStripSeparator
+    Friend WithEvents ABayarTitipanCashToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BBayarTitipanGesekToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CustomerPinjamToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem22 As ToolStripSeparator
+    Friend WithEvents ACustomerBayarCashToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BCustomerBayarGesekToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PinjamUangToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BayarHutangToolStripMenuItem As ToolStripMenuItem
 End Class

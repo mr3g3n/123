@@ -38,13 +38,13 @@ Partial Class ftrxlain
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.jml_dbit = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.mesin_debit = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.no_nota = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.no_nota = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.mesin_debit = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.jml_dbit = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -202,6 +202,42 @@ Partial Class ftrxlain
         Me.DataGridView1.Size = New System.Drawing.Size(986, 479)
         Me.DataGridView1.TabIndex = 135
         '
+        'no
+        '
+        Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.no.HeaderText = "No"
+        Me.no.Name = "no"
+        Me.no.Width = 46
+        '
+        'tgl
+        '
+        Me.tgl.HeaderText = "Tanggal"
+        Me.tgl.Name = "tgl"
+        '
+        'nomor
+        '
+        Me.nomor.HeaderText = "Nomor"
+        Me.nomor.Name = "nomor"
+        Me.nomor.Width = 150
+        '
+        'no_nota
+        '
+        Me.no_nota.HeaderText = "No. Nota"
+        Me.no_nota.Name = "no_nota"
+        Me.no_nota.Width = 200
+        '
+        'mesin_debit
+        '
+        Me.mesin_debit.HeaderText = "Nama Mesin Debit"
+        Me.mesin_debit.Name = "mesin_debit"
+        Me.mesin_debit.Width = 250
+        '
+        'jml_dbit
+        '
+        Me.jml_dbit.HeaderText = "Jumlah Debit"
+        Me.jml_dbit.Name = "jml_dbit"
+        Me.jml_dbit.Width = 200
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -210,42 +246,6 @@ Partial Class ftrxlain
         Me.Label1.Size = New System.Drawing.Size(62, 13)
         Me.Label1.TabIndex = 142
         Me.Label1.Text = "Page 1 of 2"
-        '
-        'jml_dbit
-        '
-        Me.jml_dbit.HeaderText = "Jumlah Debit"
-        Me.jml_dbit.Name = "jml_dbit"
-        Me.jml_dbit.Width = 200
-        '
-        'mesin_debit
-        '
-        Me.mesin_debit.HeaderText = "Nama Mesin Debit"
-        Me.mesin_debit.Name = "mesin_debit"
-        Me.mesin_debit.Width = 250
-        '
-        'no_nota
-        '
-        Me.no_nota.HeaderText = "No. Nota"
-        Me.no_nota.Name = "no_nota"
-        Me.no_nota.Width = 200
-        '
-        'nomor
-        '
-        Me.nomor.HeaderText = "Nomor"
-        Me.nomor.Name = "nomor"
-        Me.nomor.Width = 150
-        '
-        'tgl
-        '
-        Me.tgl.HeaderText = "Tanggal"
-        Me.tgl.Name = "tgl"
-        '
-        'no
-        '
-        Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.no.HeaderText = "No"
-        Me.no.Name = "no"
-        Me.no.Width = 46
         '
         'ftrxlain
         '

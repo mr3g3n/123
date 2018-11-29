@@ -30,6 +30,13 @@ Partial Class fgesekpel
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.notitip = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.no_cc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nm_kartu = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.mesin_edc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nilai_gesek = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
@@ -39,13 +46,6 @@ Partial Class fgesekpel
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.notitip = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.no_cc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nm_kartu = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.mesin_edc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nilai_gesek = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -121,6 +121,47 @@ Partial Class fgesekpel
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(986, 479)
         Me.DataGridView1.TabIndex = 81
+        '
+        'no
+        '
+        Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.no.HeaderText = "No"
+        Me.no.Name = "no"
+        Me.no.Width = 46
+        '
+        'tgl
+        '
+        Me.tgl.HeaderText = "Tanggal"
+        Me.tgl.Name = "tgl"
+        '
+        'notitip
+        '
+        Me.notitip.HeaderText = "No. Titip"
+        Me.notitip.Name = "notitip"
+        Me.notitip.Width = 150
+        '
+        'no_cc
+        '
+        Me.no_cc.HeaderText = "No. Kartu Kredit"
+        Me.no_cc.Name = "no_cc"
+        Me.no_cc.Width = 150
+        '
+        'nm_kartu
+        '
+        Me.nm_kartu.HeaderText = "Nama Pada Kartu"
+        Me.nm_kartu.Name = "nm_kartu"
+        Me.nm_kartu.Width = 200
+        '
+        'mesin_edc
+        '
+        Me.mesin_edc.HeaderText = "Mesin EDC"
+        Me.mesin_edc.Name = "mesin_edc"
+        Me.mesin_edc.Width = 200
+        '
+        'nilai_gesek
+        '
+        Me.nilai_gesek.HeaderText = "Nilai Gesek"
+        Me.nilai_gesek.Name = "nilai_gesek"
         '
         'CheckBox4
         '
@@ -212,47 +253,6 @@ Partial Class fgesekpel
         Me.Panel1.Size = New System.Drawing.Size(986, 81)
         Me.Panel1.TabIndex = 80
         '
-        'no
-        '
-        Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.no.HeaderText = "No"
-        Me.no.Name = "no"
-        Me.no.Width = 46
-        '
-        'tgl
-        '
-        Me.tgl.HeaderText = "Tanggal"
-        Me.tgl.Name = "tgl"
-        '
-        'notitip
-        '
-        Me.notitip.HeaderText = "No. Titip"
-        Me.notitip.Name = "notitip"
-        Me.notitip.Width = 150
-        '
-        'no_cc
-        '
-        Me.no_cc.HeaderText = "No. Kartu Kredit"
-        Me.no_cc.Name = "no_cc"
-        Me.no_cc.Width = 150
-        '
-        'nm_kartu
-        '
-        Me.nm_kartu.HeaderText = "Nama Pada Kartu"
-        Me.nm_kartu.Name = "nm_kartu"
-        Me.nm_kartu.Width = 200
-        '
-        'mesin_edc
-        '
-        Me.mesin_edc.HeaderText = "Mesin EDC"
-        Me.mesin_edc.Name = "mesin_edc"
-        Me.mesin_edc.Width = 200
-        '
-        'nilai_gesek
-        '
-        Me.nilai_gesek.HeaderText = "Nilai Gesek"
-        Me.nilai_gesek.Name = "nilai_gesek"
-        '
         'fgesekpel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -271,6 +271,7 @@ Partial Class fgesekpel
         Me.MinimizeBox = False
         Me.Name = "fgesekpel"
         Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Daftar Gesek Pelunasan"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

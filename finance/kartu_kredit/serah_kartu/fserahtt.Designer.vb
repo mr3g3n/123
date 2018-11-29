@@ -35,15 +35,15 @@ Partial Class fserahtt
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.no_cc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_kartu = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ket = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -174,33 +174,6 @@ Partial Class fserahtt
         Me.DataGridView1.Size = New System.Drawing.Size(1111, 479)
         Me.DataGridView1.TabIndex = 46
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(1002, 610)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 52
-        Me.Label1.Text = "Page 1 of 2"
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(1082, 599)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(38, 34)
-        Me.Button5.TabIndex = 47
-        Me.Button5.Text = ">>"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(9, 599)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 34)
-        Me.Button1.TabIndex = 51
-        Me.Button1.Text = "&Tambah"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -238,6 +211,33 @@ Partial Class fserahtt
         Me.ket.Name = "ket"
         Me.ket.Width = 200
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(1002, 610)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 52
+        Me.Label1.Text = "Page 1 of 2"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(1082, 599)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(38, 34)
+        Me.Button5.TabIndex = 47
+        Me.Button5.Text = ">>"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(9, 599)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 34)
+        Me.Button1.TabIndex = 51
+        Me.Button1.Text = "&Tambah"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'fserahtt
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -251,6 +251,8 @@ Partial Class fserahtt
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "fserahtt"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

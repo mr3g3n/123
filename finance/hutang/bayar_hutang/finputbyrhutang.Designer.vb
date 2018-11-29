@@ -394,6 +394,7 @@ Partial Class finputbyrhutang
         Me.MinimizeBox = False
         Me.Name = "finputbyrhutang"
         Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Anda Bayar Pinjaman"
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()

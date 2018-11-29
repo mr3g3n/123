@@ -774,10 +774,10 @@
     <Compile Include="pinjaman\customer_bayar_cash\fcusbyrpincash.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pinjaman\customer_bayar_cash\FEDITCUSBYRPINCASH.Designer.vb">
-      <DependentUpon>FEDITCUSBYRPINCASH.vb</DependentUpon>
+    <Compile Include="pinjaman\customer_bayar_cash\feditcusbyrpincash.Designer.vb">
+      <DependentUpon>feditcusbyrpincash.vb</DependentUpon>
     </Compile>
-    <Compile Include="pinjaman\customer_bayar_cash\FEDITCUSBYRPINCASH.vb">
+    <Compile Include="pinjaman\customer_bayar_cash\feditcusbyrpincash.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pinjaman\customer_bayar_cash\finputcusbyrpincash.Designer.vb">
@@ -1268,8 +1268,8 @@
     <EmbeddedResource Include="pinjaman\customer_bayar_cash\fcusbyrpincash.resx">
       <DependentUpon>fcusbyrpincash.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pinjaman\customer_bayar_cash\FEDITCUSBYRPINCASH.resx">
-      <DependentUpon>FEDITCUSBYRPINCASH.vb</DependentUpon>
+    <EmbeddedResource Include="pinjaman\customer_bayar_cash\feditcusbyrpincash.resx">
+      <DependentUpon>feditcusbyrpincash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pinjaman\customer_bayar_cash\finputcusbyrpincash.resx">
       <DependentUpon>finputcusbyrpincash.vb</DependentUpon>

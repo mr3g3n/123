@@ -434,6 +434,8 @@ Partial Class feditserahtt
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel2)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "feditserahtt"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

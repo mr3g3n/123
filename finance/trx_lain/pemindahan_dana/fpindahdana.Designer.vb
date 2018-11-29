@@ -36,14 +36,14 @@ Partial Class fpindahdana
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.from = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ke = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.jml_uang = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -184,24 +184,6 @@ Partial Class fpindahdana
         Me.DataGridView1.Size = New System.Drawing.Size(986, 479)
         Me.DataGridView1.TabIndex = 153
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(881, 596)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 159
-        Me.Label1.Text = "Page 1 of 2"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(172, 585)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 34)
-        Me.Button2.TabIndex = 157
-        Me.Button2.Text = "&View"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -237,6 +219,24 @@ Partial Class fpindahdana
         Me.jml_uang.HeaderText = "Jumlah Uang"
         Me.jml_uang.Name = "jml_uang"
         Me.jml_uang.Width = 200
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(881, 596)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 159
+        Me.Label1.Text = "Page 1 of 2"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(172, 585)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 34)
+        Me.Button2.TabIndex = 157
+        Me.Button2.Text = "&View"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Button6
         '

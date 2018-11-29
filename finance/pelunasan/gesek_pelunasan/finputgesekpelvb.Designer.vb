@@ -764,6 +764,7 @@ Partial Class finputgesekpelvb
         Me.MinimizeBox = False
         Me.Name = "finputgesekpelvb"
         Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Input Gesek Pelunasan"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

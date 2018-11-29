@@ -35,11 +35,11 @@ Partial Class fmesinedc
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.no_msn_edc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_merchan = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_bank = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -167,15 +167,6 @@ Partial Class fmesinedc
         Me.DataGridView1.Size = New System.Drawing.Size(786, 479)
         Me.DataGridView1.TabIndex = 21
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(681, 608)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 27
-        Me.Label1.Text = "Page 1 of 2"
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -201,6 +192,15 @@ Partial Class fmesinedc
         Me.nm_bank.HeaderText = "Nama Bank"
         Me.nm_bank.Name = "nm_bank"
         Me.nm_bank.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(681, 608)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 27
+        Me.Label1.Text = "Page 1 of 2"
         '
         'fmesinedc
         '

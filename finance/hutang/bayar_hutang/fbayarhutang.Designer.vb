@@ -37,14 +37,14 @@ Partial Class fbayarhutang
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.byr_melalui = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_cus = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.jml_byr = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -193,24 +193,6 @@ Partial Class fbayarhutang
         Me.DataGridView1.Size = New System.Drawing.Size(986, 479)
         Me.DataGridView1.TabIndex = 126
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(881, 597)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 133
-        Me.Label1.Text = "Page 1 of 2"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(175, 586)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 34)
-        Me.Button2.TabIndex = 131
-        Me.Button2.Text = "&View"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -247,6 +229,24 @@ Partial Class fbayarhutang
         Me.jml_byr.Name = "jml_byr"
         Me.jml_byr.Width = 200
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(881, 597)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 133
+        Me.Label1.Text = "Page 1 of 2"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(175, 586)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 34)
+        Me.Button2.TabIndex = 131
+        Me.Button2.Text = "&View"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'fbayarhutang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -265,6 +265,7 @@ Partial Class fbayarhutang
         Me.MinimizeBox = False
         Me.Name = "fbayarhutang"
         Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Daftar Pembayaran Pinjam Uang"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

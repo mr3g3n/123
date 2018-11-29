@@ -31,20 +31,20 @@ Partial Class fdbjualhp
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btntmbah = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.no_nota = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.mesin_debit = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.jml_dbit = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -139,14 +139,14 @@ Partial Class fdbjualhp
         Me.CheckBox1.Text = "Tanggal"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btntmbah
         '
-        Me.Button1.Location = New System.Drawing.Point(13, 590)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 34)
-        Me.Button1.TabIndex = 132
-        Me.Button1.Text = "&Tambah"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btntmbah.Location = New System.Drawing.Point(13, 590)
+        Me.btntmbah.Name = "btntmbah"
+        Me.btntmbah.Size = New System.Drawing.Size(75, 34)
+        Me.btntmbah.TabIndex = 132
+        Me.btntmbah.Text = "&Tambah"
+        Me.btntmbah.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -202,15 +202,6 @@ Partial Class fdbjualhp
         Me.DataGridView1.Size = New System.Drawing.Size(986, 479)
         Me.DataGridView1.TabIndex = 126
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(881, 601)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 133
-        Me.Label1.Text = "Page 1 of 2"
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -247,13 +238,22 @@ Partial Class fdbjualhp
         Me.jml_dbit.Name = "jml_dbit"
         Me.jml_dbit.Width = 200
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(881, 601)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 133
+        Me.Label1.Text = "Page 1 of 2"
+        '
         'fdbjualhp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1012, 643)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btntmbah)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button4)
@@ -284,7 +284,7 @@ Partial Class fdbjualhp
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btntmbah As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button4 As Button

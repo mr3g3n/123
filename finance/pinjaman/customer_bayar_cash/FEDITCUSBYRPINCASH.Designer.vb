@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FEDITCUSBYRPINCASH
+Partial Class feditcusbyrpincash
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -417,7 +417,7 @@ Partial Class FEDITCUSBYRPINCASH
         Me.Button4.Text = "&Keluar"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'FEDITCUSBYRPINCASH
+        'feditcusbyrpincash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -429,7 +429,7 @@ Partial Class FEDITCUSBYRPINCASH
         Me.Controls.Add(Me.Button4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "FEDITCUSBYRPINCASH"
+        Me.Name = "feditcusbyrpincash"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Edit Pembayaran Customer (Pinjam Uang)"

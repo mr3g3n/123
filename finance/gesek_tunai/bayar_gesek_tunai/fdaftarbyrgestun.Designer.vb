@@ -35,16 +35,16 @@ Partial Class fdaftarbyrgestun
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.no_cc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_kartu = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.jml_byr = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -175,42 +175,6 @@ Partial Class fdaftarbyrgestun
         Me.DataGridView1.Size = New System.Drawing.Size(1042, 479)
         Me.DataGridView1.TabIndex = 62
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(12, 590)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 34)
-        Me.Button1.TabIndex = 68
-        Me.Button1.Text = "&Tambah"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(1016, 590)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(38, 34)
-        Me.Button5.TabIndex = 63
-        Me.Button5.Text = ">>"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(936, 601)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 69
-        Me.Label1.Text = "Page 1 of 2"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(174, 590)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 34)
-        Me.Button2.TabIndex = 67
-        Me.Button2.Text = "&View"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -246,6 +210,42 @@ Partial Class fdaftarbyrgestun
         Me.jml_byr.HeaderText = "Jumlah Bayar"
         Me.jml_byr.Name = "jml_byr"
         Me.jml_byr.Width = 200
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(12, 590)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 34)
+        Me.Button1.TabIndex = 68
+        Me.Button1.Text = "&Tambah"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(1016, 590)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(38, 34)
+        Me.Button5.TabIndex = 63
+        Me.Button5.Text = ">>"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(936, 601)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 69
+        Me.Label1.Text = "Page 1 of 2"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(174, 590)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 34)
+        Me.Button2.TabIndex = 67
+        Me.Button2.Text = "&View"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'fdaftarbyrgestun
         '

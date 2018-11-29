@@ -36,14 +36,14 @@ Partial Class fbyredc
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tgl = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nomor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.acc_bank = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nilai_byr = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.jml_dbit = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -183,24 +183,6 @@ Partial Class fbyredc
         Me.DataGridView1.Size = New System.Drawing.Size(986, 479)
         Me.DataGridView1.TabIndex = 144
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(881, 601)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 151
-        Me.Label1.Text = "Page 1 of 2"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(94, 590)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 34)
-        Me.Button2.TabIndex = 149
-        Me.Button2.Text = "&View"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -236,6 +218,24 @@ Partial Class fbyredc
         Me.jml_dbit.HeaderText = "Nilai Bayar"
         Me.jml_dbit.Name = "jml_dbit"
         Me.jml_dbit.Width = 200
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(881, 601)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 151
+        Me.Label1.Text = "Page 1 of 2"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(94, 590)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 34)
+        Me.Button2.TabIndex = 149
+        Me.Button2.Text = "&View"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'fbyredc
         '

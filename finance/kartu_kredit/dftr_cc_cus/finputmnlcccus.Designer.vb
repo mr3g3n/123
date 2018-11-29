@@ -623,6 +623,7 @@ Partial Class finputmnlcccus
         Me.MinimizeBox = False
         Me.Name = "finputmnlcccus"
         Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Input Kartu Kredit Customer Manual"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

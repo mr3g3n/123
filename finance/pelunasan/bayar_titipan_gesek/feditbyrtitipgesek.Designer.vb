@@ -778,6 +778,7 @@ Partial Class feditbyrtitipgesek
         Me.MinimizeBox = False
         Me.Name = "feditbyrtitipgesek"
         Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Edit Bayar Titip Pelunasan Dengan Gesek"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

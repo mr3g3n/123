@@ -1,3 +1,3 @@
-﻿Public Class FEDITCUSBYRPINCASH
+﻿Public Class feditcusbyrpincash
 
 End Class

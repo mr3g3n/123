@@ -23,8 +23,10 @@ Partial Class fdaftarcccus
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -35,9 +37,6 @@ Partial Class fdaftarcccus
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.no_kartu = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_pd_kartu = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -46,6 +45,7 @@ Partial Class fdaftarcccus
         Me.jns_cc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_bank = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.pin = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -68,6 +68,16 @@ Partial Class fdaftarcccus
         Me.Panel1.Size = New System.Drawing.Size(1292, 81)
         Me.Panel1.TabIndex = 36
         '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Location = New System.Drawing.Point(787, 3)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(82, 17)
+        Me.CheckBox4.TabIndex = 2
+        Me.CheckBox4.Text = "Nama Bank"
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
@@ -87,6 +97,14 @@ Partial Class fdaftarcccus
         Me.CheckBox2.TabIndex = 2
         Me.CheckBox2.Text = "Nama Pada Kartu"
         Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(787, 26)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(315, 26)
+        Me.TextBox4.TabIndex = 1
         '
         'TextBox3
         '
@@ -177,33 +195,6 @@ Partial Class fdaftarcccus
         Me.DataGridView1.Size = New System.Drawing.Size(1292, 479)
         Me.DataGridView1.TabIndex = 37
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(1182, 591)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 43
-        Me.Label1.Text = "Page 1 of 2"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(787, 26)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(315, 26)
-        Me.TextBox4.TabIndex = 1
-        '
-        'CheckBox4
-        '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(787, 3)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(82, 17)
-        Me.CheckBox4.TabIndex = 2
-        Me.CheckBox4.Text = "Nama Bank"
-        Me.CheckBox4.UseVisualStyleBackColor = True
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -252,6 +243,15 @@ Partial Class fdaftarcccus
         '
         Me.pin.HeaderText = "PIN"
         Me.pin.Name = "pin"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(1182, 591)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 43
+        Me.Label1.Text = "Page 1 of 2"
         '
         'Button6
         '

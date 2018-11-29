@@ -946,11 +946,11 @@ Partial Class fedittitippelunasan
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Panel2)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "fedittitippelunasan"
