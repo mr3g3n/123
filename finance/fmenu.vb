@@ -18,4 +18,16 @@
     Private Sub DaftarBankToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles DaftarBankToolStripMenuItem1.Click
         fbank.Show()
     End Sub
+
+    Private Sub DaftarAccountBankToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DaftarAccountBankToolStripMenuItem.Click
+        faccountbank.Show()
+    End Sub
+
+    Private Sub DaftarBINToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles DaftarBINToolStripMenuItem1.Click
+        fbin.Show()
+    End Sub
+
+    Private Sub DaftarCustomerToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles DaftarCustomerToolStripMenuItem1.Click
+        fcustomer.Show()
+    End Sub
 End Class

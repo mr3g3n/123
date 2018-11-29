@@ -35,11 +35,11 @@ Partial Class fcustomer
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.no_mbr = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nm_cus = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.noktp = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -168,15 +168,6 @@ Partial Class fcustomer
         Me.DataGridView1.Size = New System.Drawing.Size(787, 477)
         Me.DataGridView1.TabIndex = 29
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(681, 583)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(62, 13)
-        Me.Label1.TabIndex = 35
-        Me.Label1.Text = "Page 1 of 2"
-        '
         'no
         '
         Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
@@ -202,6 +193,15 @@ Partial Class fcustomer
         Me.noktp.HeaderText = "No KTP"
         Me.noktp.Name = "noktp"
         Me.noktp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(681, 583)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
+        Me.Label1.TabIndex = 35
+        Me.Label1.Text = "Page 1 of 2"
         '
         'Button6
         '

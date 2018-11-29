@@ -29,6 +29,10 @@ Partial Class faccountbank
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.no_rek = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.atas_nm = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nm_bank = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -36,10 +40,6 @@ Partial Class faccountbank
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.no = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.no_rek = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.atas_nm = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.nm_bank = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -106,6 +106,32 @@ Partial Class faccountbank
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(786, 479)
         Me.DataGridView1.TabIndex = 13
+        '
+        'no
+        '
+        Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.no.HeaderText = "No"
+        Me.no.Name = "no"
+        Me.no.Width = 46
+        '
+        'no_rek
+        '
+        Me.no_rek.HeaderText = "No. Rekening"
+        Me.no_rek.Name = "no_rek"
+        Me.no_rek.Width = 200
+        '
+        'atas_nm
+        '
+        Me.atas_nm.HeaderText = "Atas Nama"
+        Me.atas_nm.Name = "atas_nm"
+        Me.atas_nm.Width = 200
+        '
+        'nm_bank
+        '
+        Me.nm_bank.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.nm_bank.HeaderText = "Nama Bank"
+        Me.nm_bank.Name = "nm_bank"
+        Me.nm_bank.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         '
         'CheckBox3
         '
@@ -175,32 +201,6 @@ Partial Class faccountbank
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(786, 81)
         Me.Panel1.TabIndex = 12
-        '
-        'no
-        '
-        Me.no.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.no.HeaderText = "No"
-        Me.no.Name = "no"
-        Me.no.Width = 46
-        '
-        'no_rek
-        '
-        Me.no_rek.HeaderText = "No. Rekening"
-        Me.no_rek.Name = "no_rek"
-        Me.no_rek.Width = 200
-        '
-        'atas_nm
-        '
-        Me.atas_nm.HeaderText = "Atas Nama"
-        Me.atas_nm.Name = "atas_nm"
-        Me.atas_nm.Width = 200
-        '
-        'nm_bank
-        '
-        Me.nm_bank.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.nm_bank.HeaderText = "Nama Bank"
-        Me.nm_bank.Name = "nm_bank"
-        Me.nm_bank.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         '
         'faccountbank
         '

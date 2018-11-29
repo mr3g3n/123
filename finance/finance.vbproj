@@ -585,6 +585,60 @@
     <Compile Include="master\bin\finputbin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="master\customer\fcustomer.Designer.vb">
+      <DependentUpon>fcustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\customer\fcustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\customer\feditcus.Designer.vb">
+      <DependentUpon>feditcus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\customer\feditcus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\customer\finputcustomer.Designer.vb">
+      <DependentUpon>finputcustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\customer\finputcustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\mesin_debit\feditmesindebit.Designer.vb">
+      <DependentUpon>feditmesindebit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\mesin_debit\feditmesindebit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\mesin_debit\finputmesindebit.Designer.vb">
+      <DependentUpon>finputmesindebit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\mesin_debit\finputmesindebit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\mesin_debit\fmesindebit.Designer.vb">
+      <DependentUpon>fmesindebit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\mesin_debit\fmesindebit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\mesin_edc\feditmesinedc.Designer.vb">
+      <DependentUpon>feditmesinedc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\mesin_edc\feditmesinedc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\mesin_edc\finputmesinedc.Designer.vb">
+      <DependentUpon>finputmesinedc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\mesin_edc\finputmesinedc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="master\mesin_edc\fmesinedc.Designer.vb">
+      <DependentUpon>fmesinedc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="master\mesin_edc\fmesinedc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -1120,6 +1174,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="master\bin\finputbin.resx">
       <DependentUpon>finputbin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\customer\fcustomer.resx">
+      <DependentUpon>fcustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\customer\feditcus.resx">
+      <DependentUpon>feditcus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\customer\finputcustomer.resx">
+      <DependentUpon>finputcustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\mesin_debit\feditmesindebit.resx">
+      <DependentUpon>feditmesindebit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\mesin_debit\finputmesindebit.resx">
+      <DependentUpon>finputmesindebit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\mesin_debit\fmesindebit.resx">
+      <DependentUpon>fmesindebit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\mesin_edc\feditmesinedc.resx">
+      <DependentUpon>feditmesinedc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\mesin_edc\finputmesinedc.resx">
+      <DependentUpon>finputmesinedc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="master\mesin_edc\fmesinedc.resx">
+      <DependentUpon>fmesinedc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

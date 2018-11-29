@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.finance.fmenu
+            Me.MainForm = Global.finance.flogin
         End Sub
     End Class
 End Namespace
