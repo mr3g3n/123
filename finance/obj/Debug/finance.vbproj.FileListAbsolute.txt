@@ -331,3 +331,7 @@ D:\regen\programta\rajawalet\123\finance\obj\Debug\finance.fmesindebit.resources
 D:\regen\programta\rajawalet\123\finance\obj\Debug\finance.feditmesinedc.resources
 D:\regen\programta\rajawalet\123\finance\obj\Debug\finance.finputmesinedc.resources
 D:\regen\programta\rajawalet\123\finance\obj\Debug\finance.fmesinedc.resources
+D:\regen\programta\rajawalet\123\finance\bin\Debug\MySql.Data.dll
+D:\regen\programta\rajawalet\123\finance\bin\Debug\Google.Protobuf.dll
+D:\regen\programta\rajawalet\123\finance\bin\Debug\MySql.Data.xml
+D:\regen\programta\rajawalet\123\finance\obj\Debug\finance.vbproj.CopyComplete

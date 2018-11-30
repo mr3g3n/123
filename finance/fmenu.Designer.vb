@@ -188,7 +188,7 @@ Partial Class fmenu
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterToolStripMenuItem, Me.KartuKreditToolStripMenuItem, Me.GesekTunaiToolStripMenuItem, Me.PelunasanToolStripMenuItem, Me.PinjamanToolStripMenuItem, Me.HutangToolStripMenuItem, Me.TransaksiLainnnyaToolStripMenuItem, Me.RangkumanToolStripMenuItem, Me.LaporanToolStripMenuItem, Me.UtilityToolStripMenuItem, Me.UserManagementToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1517, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1310, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -957,7 +957,7 @@ Partial Class fmenu
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3, Me.ToolStripStatusLabel4})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 428)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(1517, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1310, 22)
         Me.StatusStrip1.TabIndex = 1
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -1015,7 +1015,7 @@ Partial Class fmenu
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Location = New System.Drawing.Point(0, 24)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1517, 92)
+        Me.Panel1.Size = New System.Drawing.Size(1310, 92)
         Me.Panel1.TabIndex = 2
         '
         'Button14
@@ -1023,9 +1023,9 @@ Partial Class fmenu
         Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button14.Image = CType(resources.GetObject("Button14.Image"), System.Drawing.Image)
         Me.Button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button14.Location = New System.Drawing.Point(1407, 3)
+        Me.Button14.Location = New System.Drawing.Point(1206, 3)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(105, 86)
+        Me.Button14.Size = New System.Drawing.Size(86, 86)
         Me.Button14.TabIndex = 0
         Me.Button14.Text = "&Bayar EDC"
         Me.Button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1035,11 +1035,11 @@ Partial Class fmenu
         '
         Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
-        Me.Button13.Location = New System.Drawing.Point(1298, 3)
+        Me.Button13.Location = New System.Drawing.Point(1114, 3)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(105, 86)
+        Me.Button13.Size = New System.Drawing.Size(86, 86)
         Me.Button13.TabIndex = 0
-        Me.Button13.Text = "&Cust Byar Cash"
+        Me.Button13.Text = "&Cust Byr Cash"
         Me.Button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button13.UseVisualStyleBackColor = True
         '
@@ -1048,9 +1048,9 @@ Partial Class fmenu
         Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
         Me.Button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button12.Location = New System.Drawing.Point(1190, 3)
+        Me.Button12.Location = New System.Drawing.Point(1022, 3)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(105, 86)
+        Me.Button12.Size = New System.Drawing.Size(86, 86)
         Me.Button12.TabIndex = 0
         Me.Button12.Text = "&Cust Pinjam"
         Me.Button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1061,9 +1061,9 @@ Partial Class fmenu
         Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
         Me.Button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button11.Location = New System.Drawing.Point(1082, 3)
+        Me.Button11.Location = New System.Drawing.Point(930, 3)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(105, 86)
+        Me.Button11.Size = New System.Drawing.Size(86, 86)
         Me.Button11.TabIndex = 0
         Me.Button11.Text = "&Pindah Dana"
         Me.Button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1074,9 +1074,9 @@ Partial Class fmenu
         Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
         Me.Button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button10.Location = New System.Drawing.Point(974, 3)
+        Me.Button10.Location = New System.Drawing.Point(831, 3)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(105, 86)
+        Me.Button10.Size = New System.Drawing.Size(95, 86)
         Me.Button10.TabIndex = 0
         Me.Button10.Text = "&Kas / Bank Lain"
         Me.Button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1087,11 +1087,11 @@ Partial Class fmenu
         Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
         Me.Button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button9.Location = New System.Drawing.Point(866, 3)
+        Me.Button9.Location = New System.Drawing.Point(739, 3)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(105, 86)
+        Me.Button9.Size = New System.Drawing.Size(86, 86)
         Me.Button9.TabIndex = 0
-        Me.Button9.Text = "&Byr Titip Gesek"
+        Me.Button9.Text = "&Byr Ttp Gesek"
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button9.UseVisualStyleBackColor = True
         '
@@ -1100,9 +1100,9 @@ Partial Class fmenu
         Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button8.Location = New System.Drawing.Point(758, 3)
+        Me.Button8.Location = New System.Drawing.Point(647, 3)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(105, 86)
+        Me.Button8.Size = New System.Drawing.Size(86, 86)
         Me.Button8.TabIndex = 0
         Me.Button8.Text = "&Byr Titip Cash"
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1113,9 +1113,9 @@ Partial Class fmenu
         Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
         Me.Button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button7.Location = New System.Drawing.Point(651, 3)
+        Me.Button7.Location = New System.Drawing.Point(555, 3)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(105, 86)
+        Me.Button7.Size = New System.Drawing.Size(86, 86)
         Me.Button7.TabIndex = 0
         Me.Button7.Text = "&Byr Krg Gsk"
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1126,11 +1126,11 @@ Partial Class fmenu
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
         Me.Button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button6.Location = New System.Drawing.Point(543, 3)
+        Me.Button6.Location = New System.Drawing.Point(463, 3)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(105, 86)
+        Me.Button6.Size = New System.Drawing.Size(86, 86)
         Me.Button6.TabIndex = 0
-        Me.Button6.Text = "&Gesek Pelunasan"
+        Me.Button6.Text = "&Gesek Plns"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -1139,9 +1139,9 @@ Partial Class fmenu
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button5.Location = New System.Drawing.Point(435, 3)
+        Me.Button5.Location = New System.Drawing.Point(371, 3)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(105, 86)
+        Me.Button5.Size = New System.Drawing.Size(86, 86)
         Me.Button5.TabIndex = 0
         Me.Button5.Text = "&Bayar Kartu"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1152,9 +1152,9 @@ Partial Class fmenu
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button4.Location = New System.Drawing.Point(327, 3)
+        Me.Button4.Location = New System.Drawing.Point(279, 3)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(105, 86)
+        Me.Button4.Size = New System.Drawing.Size(86, 86)
         Me.Button4.TabIndex = 0
         Me.Button4.Text = "&Approve TP"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1165,11 +1165,11 @@ Partial Class fmenu
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.Location = New System.Drawing.Point(219, 3)
+        Me.Button3.Location = New System.Drawing.Point(187, 3)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(105, 86)
+        Me.Button3.Size = New System.Drawing.Size(86, 86)
         Me.Button3.TabIndex = 0
-        Me.Button3.Text = "&Titip Pelunasan"
+        Me.Button3.Text = "&Titip Plns"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -1178,9 +1178,9 @@ Partial Class fmenu
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button2.Location = New System.Drawing.Point(111, 3)
+        Me.Button2.Location = New System.Drawing.Point(95, 3)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(105, 86)
+        Me.Button2.Size = New System.Drawing.Size(86, 86)
         Me.Button2.TabIndex = 0
         Me.Button2.Text = "&Bayar Gesek"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1193,7 +1193,7 @@ Partial Class fmenu
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(3, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(105, 86)
+        Me.Button1.Size = New System.Drawing.Size(86, 86)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "&Gestun"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1211,7 +1211,7 @@ Partial Class fmenu
         Me.Panel2.Controls.Add(Me.Button19)
         Me.Panel2.Location = New System.Drawing.Point(0, 337)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1517, 92)
+        Me.Panel2.Size = New System.Drawing.Size(1310, 92)
         Me.Panel2.TabIndex = 3
         '
         'Button15
@@ -1221,7 +1221,7 @@ Partial Class fmenu
         Me.Button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button15.Location = New System.Drawing.Point(3, 3)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(105, 86)
+        Me.Button15.Size = New System.Drawing.Size(86, 86)
         Me.Button15.TabIndex = 0
         Me.Button15.Text = "&Customer"
         Me.Button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1232,9 +1232,9 @@ Partial Class fmenu
         Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button16.Image = CType(resources.GetObject("Button16.Image"), System.Drawing.Image)
         Me.Button16.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button16.Location = New System.Drawing.Point(111, 3)
+        Me.Button16.Location = New System.Drawing.Point(95, 3)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(105, 86)
+        Me.Button16.Size = New System.Drawing.Size(86, 86)
         Me.Button16.TabIndex = 0
         Me.Button16.Text = "&Kartu K. Baru"
         Me.Button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1245,9 +1245,9 @@ Partial Class fmenu
         Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button17.Image = CType(resources.GetObject("Button17.Image"), System.Drawing.Image)
         Me.Button17.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button17.Location = New System.Drawing.Point(219, 3)
+        Me.Button17.Location = New System.Drawing.Point(187, 3)
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(105, 86)
+        Me.Button17.Size = New System.Drawing.Size(86, 86)
         Me.Button17.TabIndex = 0
         Me.Button17.Text = "&Transaksi"
         Me.Button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1258,9 +1258,9 @@ Partial Class fmenu
         Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button18.Image = CType(resources.GetObject("Button18.Image"), System.Drawing.Image)
         Me.Button18.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button18.Location = New System.Drawing.Point(327, 3)
+        Me.Button18.Location = New System.Drawing.Point(279, 3)
         Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(105, 86)
+        Me.Button18.Size = New System.Drawing.Size(86, 86)
         Me.Button18.TabIndex = 0
         Me.Button18.Text = "&Saldo"
         Me.Button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1271,9 +1271,9 @@ Partial Class fmenu
         Me.Button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button19.Image = CType(resources.GetObject("Button19.Image"), System.Drawing.Image)
         Me.Button19.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button19.Location = New System.Drawing.Point(435, 3)
+        Me.Button19.Location = New System.Drawing.Point(371, 3)
         Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(105, 86)
+        Me.Button19.Size = New System.Drawing.Size(86, 86)
         Me.Button19.TabIndex = 0
         Me.Button19.Text = "&Prospek Plns"
         Me.Button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -1284,7 +1284,7 @@ Partial Class fmenu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.ClientSize = New System.Drawing.Size(1517, 450)
+        Me.ClientSize = New System.Drawing.Size(1310, 450)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.StatusStrip1)
